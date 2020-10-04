@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Metronome Dashboard</title>
+    </head>
+
+    <body>
+        <h1>Dashboard</h1>
+
+        <div>
+            <button id="refresh">Refresh</button>
+        </div>
+
+        <div>
+            <span>[bpm]</span>
+            <span id="bpm"></span>
+        </div>
+
+        <div>
+            <span>[min]</span>
+            <span id="bpm_min"></span>
+        </div>
+
+        <div>
+            <span>[max]</span>
+            <span id="bpm_max"></span>
+        </div>
+
+        <br>
+
+        <div>
+            <input id="new_bpm" type="number"></input>
+            <button id="set_bpm">Set BPM</button>
+        </div>
+        <br>
+
+        <div>
+            <button id="reset_min">Reset Min</button>
+        </div>
+        <br>
+        <div>
+            <button id="reset_max">Reset Max</button>
+        </div>
+
+    </body>
+    <script src="./dashboard.js"></script>
+</html>
